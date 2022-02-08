@@ -1,0 +1,46 @@
+Construir la clase Construcciones, la cual no podrá instanciarse, con los siguientes datos
+miembro:
+∙ double superficiePorM2
+∙ String direccion
+∙ double precioPorM2
+y el siguiente comportamiento:
+∙ constructor, que deberá tomar como parámetros obligatorios valores para los tres datos
+miembro y los inicializará con dichos valores
+∙ una función para mostrar y otra para actualizar los datos miembros (individuales para cada
+uno de ellos)
+∙ mostrarCaracteristicas, que deberá mostrar los datos miembro
+
+Construir una clase Edificios que heredará de Construcciones y, además, tendrá los siguientes
+datos miembro:
+∙ int pisos
+∙ int unidades
+y el siguiente comportamiento:
+∙ constructor, que deberá tomar como parámetros obligatorios valores para los tres datos de la
+clase base y los dos propios y los inicializará con dichos valores
+∙ una función para mostrar y otra para actualizar los datos miembros propios (individuales para
+cada uno de ellos)
+∙ mostrarCaracteristicas, que deberá mostrar los datos miembro de la clase base (utilizando la
+función de la clase base) y los datos miembro propios dando formato y titulando cada dato.
+Además se mostrara el precio del edificio.
+
+Construir una clase Casas que heredará en forma pública de Construcciones y, además, tendrá
+los siguientes datos miembro:
+∙ int ambientes
+∙ Orientacion orientacion
+y el siguiente comportamiento:
+∙ constructor, que deberá tomar como parámetros obligatorios valores para los tres datos de la
+clase base y los dos propios y los inicializará con dichos valores
+∙ una función para mostrar y otra para actualizar los datos miembros propios (individuales para
+cada uno de ellos)
+∙ mostrarCaracteristicas, que deberá mostrar los datos miembro de la clase base (utilizando la
+función de la clase base) y los datos miembro propios dando formato y titulando cada dato.
+Además se mostrará el precio de la casa.
+
+Construir un programa principal en el que se deberá:
+∙ Generar una lista de construcciones, a partir de un archivo de texto.
+∙ Imprimir en pantalla los datos de dichas construcciones.
+∙ Mostrar por pantalla las construcciones que se encuentren entre un rango de precio. ∙ A
+las construcciones obtenidas del punto anterior, se debe de volver a calcular el precio
+sumándole el IVA (21%).
+∙ La lista de construcciones generada, deberán de persistirse en un archivo con el siguiente
+nombre construc_ddMMyyyy.txt.

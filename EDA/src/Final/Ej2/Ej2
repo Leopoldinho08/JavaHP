@@ -1,0 +1,13 @@
+a) Una lista es un conjunto homogéneo en la que cualquier elemento es accesible en un momento dado.
+Los elementos están situados en forma de una línea, por lo que cada elemento es una estructura secuencial.
+
+b) Una lista simple esta compuesta por nodos, donde cada nodo posee un valor y un puntero al elemento siguiente.
+Entre sus ventajas se encuentra que se puede acceder a cualquier elemento de la lista en cualquier momento.
+Sin embargo, su desventaja es que se debe asignar al comienzo el número de elementos que se van a poder almacenar.
+
+Mientras tanto, una lista doble es una lista que puede ser recorrida en dos sentidos ya que posee dos punteros:
+una al elemento siguiente y otro al anterior. En una lista circular doble, el campo siguiente del ultimo nodo apunta
+al primer nodo de la lista y el campo anterior del primer nodo apunta al ultimo de la misma. Las ventajas de este tipo
+de lista es que no es necesario establecer la cantidad de elementos de la estructura de datos. También, se pueden eliminar
+y realizar inserciones fácilmente. Entre sus desventajas podemos encontrar que no se permite el acceso directo a un
+elemento arbitrario de la lista: se debe recorrer la lista entera desde el primer elemento para encontrar el valor deseado.

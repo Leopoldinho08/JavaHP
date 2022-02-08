@@ -1,0 +1,2 @@
+La busqueda binaria funciona dividiendo repetidamente por la mitad la porción de
+la lista que podría contener el elemento, hasta que haya reducido las posibles ubicaciones a una sola.

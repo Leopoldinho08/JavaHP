@@ -1,0 +1,24 @@
+La pila usa el modo de acceso a sus elementos tipo LIFO (del inglés Last In First Out, último en entrar, primero en salir)
+que permite almacenar y recuperar datos.
+Para el manejo de los datos cuenta con dos operaciones básicas: apilar (push), que coloca un objeto en la pila,
+y su operación inversa, retirar (o desapilar, pop), que retira el último elemento apilado.
+
+En cada momento solamente se tiene acceso a la parte superior de la pila, es decir, al último objeto apilado.
+
+    public void insertarPila(){
+        if (isPilaLlena()){
+            JOptionPane.showMessageDialog(null, "La pila esta llena");
+        }else {
+            int item;
+
+            item = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el item a agregar"));
+
+            this.tope++;
+            this.Pila[this.tope] = item;
+            JOptionPane.showMessageDialog(null, "El item " + item + " se inserto  la pila");
+        }
+    }
+
+En el codigo de arriba, se la funcion insertarPila() funciona de la siguiente manera. Primero, se fija si la pila esta llena, si lo está,
+envia mensaje de error, si no lo está, pide el item a agregar a la pila. Despues, toma el tope de la pila y le suma 1 y agrega el item
+en la posicion tope de la pila

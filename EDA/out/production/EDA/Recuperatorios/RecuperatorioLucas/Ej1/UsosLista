@@ -1,0 +1,9 @@
+Una Lista es un conjunto ordenado de elementos homogéneos en la que no hay
+Restricciones de acceso, cualquier elemento es igualmente accesible en un momento dado.
+Los elementos están situados en forma de una línea. Cada elemento es una estructura secuencial.
+
+Una Lista simple esta compuesta por nodos.
+Cada nodo tiene un valor (dato) y un puntero al elemento siguiente.
+
+El uso de listas es una forma útil de almacenar y manipular grandes volúmenes de datos,
+tal como haríamos en una matriz o arreglo.

@@ -1,0 +1,10 @@
+a) Es una estructura de datos de elementos de un mismo tipo, que se utiliza
+para almacenar y recuperar datos. Su modo de acceso de los elementos es del tipo LIFO, es decir,
+el último en entrar es el primero en salir. La cantidad de elementos que contiene una pila puede
+variar durante la ejecución del programa.
+Para el manejo de los datos se cuenta con dos operaciones básicas: apilar (push), que coloca un objeto
+en la pila, y su operación inversa, retirar (pop), que retira el último elemento apilado.
+En cada momento sólo se tiene acceso a la parte superior de la pila, es decir, al último objeto apilado (denominado TOP)
+
+b) Se puede utilizar, a nivel de arquitectura hardware, la asignación de memoria.
+También, se puede utilizar para la organización del CPU ya que se poseen registros que se pueden utilizar como punteros de pila.

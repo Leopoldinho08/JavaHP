@@ -1,0 +1,5 @@
+
+
+La estructura de datos que utilizaria para asignar turnos en un centro medico seria una COLA.
+Decidi esto ya que la cola utiliza el algoritmo FIFO (First In First Out) por lo que los primeros en llegar serian
+los primeros en ser atendidos, y los que lleguen mas tarde van al final de la cola.

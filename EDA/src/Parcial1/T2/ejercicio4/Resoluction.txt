@@ -1,0 +1,19 @@
+
+
+Si tuviese dos estructuras de datos, una lista simple y otra doblemente en lazada circular,
+como haría para eliminar un nodo ubicado dos posiciones después de un valor determinado
+(el valor del nodo sería pasada como referencia) ¿Qué consideraciones tendría?
+
+Explique el por qué de su elección y justifique.
+
+a) En una lista doblemente enlazada, al tener dos punteros en cada nodo (uno al anterior, y uno al posterior), la mejor
+manera para remover un valor en una posicion dada, seria manipulando la direccion de los punteros del nodo anterior y
+el nodo posterior al indice que se quiere remover. Por ejemplo, si se quiere remover un nodo en el indice 4, el procedimiento
+ideal seria que el nodo en el indice 3 apunte como "siguiente" al nodo en el indice 5, cuidando de no llegar a una
+NullPointerException, y que el indice 6 apunte como "anterior" al nodo en el indice 3. Esto removeria de la lista el nodo
+del indice 4, ya que seria inaccesible su acceso.
+
+b) Por otro lado, en una lista simple, donde los nodos solamente tienen puntero al nodo siguiente, el procedimiento seria
+mas simple y directo. Volviendo al ejemplo anterior, si se quiere remover el indice 4 de una lista simple, alcanza con
+dirigir el puntero "siguiente" del nodo 3 al nodo 5, cuidando nuevamente de no encontrar el fin de la lista y que ocurra
+una NullPointerException.

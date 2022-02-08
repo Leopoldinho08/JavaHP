@@ -1,0 +1,3 @@
+Mar del Plata; 2; 1000.0; 1800.0
+Mar del Plata; 2; 1000.0; 1800.0
+Mar del Plata; 2; 1000.0; 1800.0

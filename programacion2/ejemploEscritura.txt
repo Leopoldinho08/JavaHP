@@ -1,0 +1,12 @@
+Hola Leo, bienvenido a la fiesta!
+
+Algoritmo para escribir en un archivo txt
+1. Crear una variable de tipo File
+2. Crear una variable de tipo PrintWriter
+3. Preparar el archivo
+4. Verificar si el archivo no existe
+    a. Si no existe, crearlo, con try/catch
+    b. Si existe,
+        1. Preparar el archivo para escribir
+        2. Escribir en el archivo
+        3. Cerrar el archivo

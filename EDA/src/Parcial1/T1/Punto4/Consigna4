@@ -1,0 +1,15 @@
+Respuesta número 4:
+
+Lo primero que se debe tener en cuenta para agregar elementos tanto a una lista simple como a una lista doblemente enlazada,
+es si la lista está vacía. Las listas simples cuando agregan un nodo y está vacía, ese nodo se convierte en la nueva cabeza de dicha
+lista, también, los nodos que la componen, solo tienen referencia a su nodo siguiente. Las listas doblemente enlazadas, cuando están
+vacías y se agrega un Nodo, ese nodo se convierte en la cabeza y la cola de la lista, los nodos que la componen tiene referencia
+a su nodo siguiente y a su nodo anterior.
+
+    La mejor estrategia que uso, la que use en los trabajos prácticos para cada una son:
+
+    *Lista simple: Si es el final de la lista, hago que el último nodo apunte al nuevo nodo, y el nuevo a null. Luego
+    de haber recorrido la lista. Si hay que agregarlo a un índice x, se apunta al indice anterior al elegido y luego
+    el nodo nuevo se inserta en el indice siguiente.
+
+    *Lista doblemente enlazada: Si es el final de la lista, que el anterior apunte al nuevo y el nuevo a head.

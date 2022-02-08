@@ -1,0 +1,7 @@
+Autor: Matias Medina
+
+3) Ambos tendrian que mantener las conexiones de los nodos dobles con la diferencia de que la circular tiene unidas la cabeza
+la cola. Una agregacion basica en la lista circular seria agregarlo en la cola uniendo el nodo con la cabeza, y alineando la cola anterior
+con el nuevo nodo. En la lista doble se agrega en la cola de la lista sin mas complicaciones que asignar la nueva cola y unir los nodos.
+El mas eficiente y la mas segura es la circular porque si la implementacion mantiene la pocision tiene que recorrer menos en algunos casos, de
+quedar alejado el indice seria mas eficiente la lista doble pero aun asi no seria mas segura sin centinela.
